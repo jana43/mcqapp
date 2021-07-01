@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/cardView"
+   android:layout_width="match_parent"
+   android:layout_margin="5dp"
+   style="?layerOneBG"
+   android:layout_height="wrap_content">
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style = "?qcardBackGround"
+      android:orientation="vertical"
+      android:padding="10dp">
+      <!--items for a single row of RecyclerView-->
+      <TextView
+         android:id="@+id/tvQuestion"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Name"
+         android:gravity = "left"
+         android:paddingLeft = "5dp"
+         android:paddingRight = "5dp"
+        
+         style = "?questionBack"
+         android:paddingBottom = "20dp"
+         android:paddingTop = "5dp"
+         
+         android:textSize="20sp" />
+      <TextView
+         android:id="@+id/tvOptionA"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="A"
+         style = "?option"
+         android:gravity = "left"
+         android:padding = "1dp"
+       
+         android:textSize="20sp"
+         android:layout_marginTop = "20dp"
+          />
+      <TextView
+         android:id="@+id/tvOptionB"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="B"
+         
+         android:gravity = "left"
+         android:padding = "1dp"
+         style = "?option"
+         android:textSize="20sp" />
+      <TextView
+         android:id="@+id/tvOptionC"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="C"
+         
+         android:gravity = "left"
+         android:padding = "1dp"
+         style = "?option"
+         android:textSize="20sp" />
+      <TextView
+         android:id="@+id/tvOptionD"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="D"
+         
+         android:gravity = "left"
+         android:padding = "1dp"
+         style = "?option"
+         android:textSize="20sp" 
+         android:layout_marginBottom = "10dp"
+         />
+
+      <Button 
+         android:id="@+id/button"
+         android:layout_width='match_parent'
+         android:layout_height='match_parent'
+         style = "?answarButton"
+         android:textColor = '@color/Headline'
+         android:padding = '10dp'
+         android:layout_margin = '10dp'
+         android:text="show"
+         android:gravity= 'center'
+         
+         />
+
+      <TextView
+         android:id="@+id/tvAnswer"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Ans"
+         android:gravity = "left"
+         android:padding = "2dp"
+         style = "?option"
+         android:textSize="20sp"
+         android:visibility="gone"
+        
+         android:layout_margin = "3dp"
+         />
+      <TextView
+         android:id="@+id/tvSolution"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Sol"
+         android:gravity = "left"
+         android:paddingLeft = "5dp"
+         style = "?option"
+         android:textSize="20sp"
+         android:visibility="gone"
+        
+         />
+
+        
+        
+      
+       
+      </LinearLayout>
+</androidx.cardview.widget.CardView>

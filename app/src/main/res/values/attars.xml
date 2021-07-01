@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!-- Other values-->
+   <attr name="cbutton" format="reference" />
+   <attr name="layerOneBG" format="reference" />
+   <attr name="headlineText" format="reference" />
+   <attr name="questionBack" format="reference" />
+   <attr name="option" format="reference" />
+   <attr name="qcardBackGround" format="reference" />
+   <attr name="answarButton" format="reference" />
+
+</resources>

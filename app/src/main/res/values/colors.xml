@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="Headline">#808080</color>
+    <color name="qback">#e5e4e2</color>
+    <color name = "bback">#dcdcdc</color>
+    <color name = "bcard">#d3d3d3</color>
+    <color name = "bbutton">#c9c0bb</color>
+    <color name = "fbutton">#808080</color>
+    <color name = "gradA">#A6A6A6</color>
+    <color name = "gradB">#CCCCCC</color>
+    <color name = "header">#acacac</color>
+    <color name = "headertop">#c4aead</color>
+
+
+
+    <color name = "purple_Headline">#4b0082</color>
+    <color name="purple_qback">#e6e8fa</color>
+    <color name = "purple_bback">#e6e6fa</color>
+    <color name = "purple_bcard">#cec8ef</color>
+    <color name = "purple_bbutton">#e0b0ff</color>
+    <color name = "fpurple_bbutton">#32174d</color>
+    <color name = "purple_gradA">#7b68ee</color>
+    <color name = "purple_gradB">#9400d3</color>
+    <color name = "purple_header">#8a2be2</color>
+    <color name = "purple_headertop">#c9a0dc</color>
+    
+
+    
+   
+
+    
+</resources>

@@ -1,0 +1,75 @@
+<resources>
+   <style name="cardButton" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/gradient_sub</item>
+   </style>
+   <style name="backGround" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:background">@color/bback</item>
+   </style>
+   <style name="headline" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/Headline</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+
+   <style name="cardButtonB" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/gradient_sub</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+   <style name="question" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/Headline</item>
+        <item name="android:background">@drawable/rounded_corner_question</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+   <style name="option" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/Headline</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+    <style name="qcardBG" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/bcard</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+   <style name="ansButton" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:background">@color/bbutton</item>
+        <item name="android:color">@color/fbutton</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+
+
+
+   <style name="purplecardButton" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/purple_gradient_sub</item>
+   </style>
+   <style name="purplebackGround" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:background">@color/purple_bback</item>
+   </style>
+   <style name="purpleheadline" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/purple_Headline</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+
+   <style name="purplecardButtonB" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/purple_gradient_sub</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+   <style name="purplequestion" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/purple_Headline</item>
+        <item name="android:background">@drawable/purple_rounded_corner_question</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+   <style name="purpleoption" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/purple_Headline</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+   <style name="purpleqcardBG" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/purple_bcard</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+   <style name="purpleansButton" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:background">@color/purple_bbutton</item>
+        <item name="android:color">@color/fpurple_bbutton</item>
+        <item name="android:fontFamily">@font/chakra</item>
+   </style>
+</resources>

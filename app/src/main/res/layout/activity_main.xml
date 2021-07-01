@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+android:layout_width='match_parent'
+android:layout_height='match_parent'
+android:orientation='vertical'
+style = "?layerOneBG"
+
+>
+        <ScrollView
+        
+                android:layout_width="fill_parent"  
+                android:layout_height="0dp"  
+                android:padding = "10dp"
+                android:layout_weight = "9"
+                style = "?layerOneBG"
+                android:id="@+id/scrollView">  
+        
+                <LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+                android:layout_width='match_parent'
+                android:layout_height='match_parent'
+                android:orientation='vertical'
+                style = "?layerOneBG"
+                >
+                        
+                       
+                        <TextView
+                        android:layout_width='wrap_content'
+                        android:layout_height='wrap_content'
+                        android:layout_marginBottom='10dp'
+                        android:text='mcq from geography ...scroll>>'
+                        style = "?headlineText"
+                        android:textSize='16dp'
+                        />
+                        
+                        
+
+                        <HorizontalScrollView  
+                                android:layout_width="match_parent"  
+                                android:layout_height="wrap_content"  
+                                android:id="@+id/horizontalScrollView"
+                                style = "?layerOneBG"
+                                android:scrollbarThumbHorizontal="@null"
+                                >  
+                        
+                                <LinearLayout  
+                                    android:layout_width="wrap_content"  
+                                    android:layout_height="wrap_content"  
+                                    android:orientation="horizontal"
+                                    style = "?layerOneBG"
+                                    >  
+                                    
+                                        <TextView
+                                     
+                                      android:layout_width='110dp'
+                                      android:layout_height='140dp'
+                                      style = "?cbutton"
+                                      android:layout_marginBottom='10dp'
+                                      android:text='agriculture in india'
+                                      
+                                      android:textSize='15dp'
+                                      android:textStyle='bold'
+                                      android:gravity = 'center'
+                                      android:layout_margin = "2dp"
+                                      android:tag="agriculture-and-soil-in-indian-geography-update.json"
+                                      android:onClick="clickButton"
+                                      />
+                                      
+                                </LinearLayout>  
+  
+                       </HorizontalScrollView>  
+
+                    <TextView
+                        android:layout_width='wrap_content'
+                        android:layout_height='wrap_content'
+                        android:layout_marginBottom='10dp'
+                        android:text='electricain trade '
+                        style = "?headlineText"
+                        android:textSize='16dp'
+                       
+                        />
+
+
+                       <HorizontalScrollView  
+                                    android:layout_width="match_parent"  
+                                    android:layout_height="wrap_content"  
+                                    android:id="@+id/horizontalScrollView2"
+                                    style = "?layerOneBG"
+                                    android:scrollbarThumbHorizontal="@null"
+                                    >  
+                          
+                                    <LinearLayout  
+                                        android:layout_width="wrap_content"  
+                                        android:layout_height="wrap_content"  
+                                        android:orientation="horizontal"
+                                        style = "?layerOneBG"
+                                        >  
+                                      
+    
+    
+                                          <TextView
+                                         
+                                          android:layout_width='110dp'
+                                          android:layout_height='140dp'
+                                          
+                                          style = "?cbutton"
+                                          android:text='basic electricity concept'
+                                          
+                                          android:textSize='15dp'
+                                          android:textStyle='bold'
+                                          android:gravity = 'center'
+                                          android:layout_margin = "2dp"
+                                          android:tag="iti_electrician/basic-electricity-concept.json"
+                                          android:onClick="clickButton"
+                                          />
+
+                                          <TextView
+                                         
+                                          android:layout_width='110dp'
+                                          android:layout_height='140dp'
+                                          style = "?cbutton"
+                                          
+                                          android:text='cell and batteries'
+                                          
+                                          android:textSize='15dp'
+                                          android:textStyle='bold'
+                                          android:gravity = 'center'
+                                          android:layout_margin = "2dp"
+                                          android:tag="iti_electrician/cell-and-batteries.json"
+                                          android:onClick="clickButton"
+                                          />
+
+                                          <TextView
+                                         
+                                          android:layout_width='110dp'
+                                          android:layout_height='140dp'
+                                          style = "?cbutton"
+                                          
+                                          android:text='dc \ngenerators'
+                                          
+                                          android:textSize='15dp'
+                                          android:textStyle='bold'
+                                          android:gravity = 'center'
+                                          android:layout_margin = "2dp"
+                                          android:tag="iti_electrician/dc-generators.json"
+                                          android:onClick="clickButton"
+                                          />
+
+                                          <TextView
+                                         
+                                          android:layout_width='110dp'
+                                          android:layout_height='140dp'
+                                          style = "?cbutton"
+                                          
+                                          android:text='safety and health'
+                                      
+                                          android:textSize='15dp'
+                                          android:textStyle='bold'
+                                          android:gravity = 'center'
+                                          android:layout_margin = "2dp"
+                                          android:tag="iti_electrician/electrical-safety-and-health.json"
+                                          android:onClick="clickButton"
+                                          />
+
+                                          <TextView
+                                         
+                                          android:layout_width='110dp'
+                                          android:layout_height='140dp'
+                                          style = "?cbutton"
+                                         
+                                          android:text='generation of electricity'
+                                        
+                                          android:textSize='15dp'
+                                          android:textStyle='bold'
+                                          android:gravity = 'center'
+                                          android:layout_margin = "2dp"
+                                          android:tag="iti_electrician/generation-of-electrical-energy.json"
+                                          android:onClick="clickButton"
+                                          />
+
+                                          <TextView
+                                         
+                                          android:layout_width='110dp'
+                                          android:layout_height='140dp'
+                                          style = "?cbutton"
+                                         
+                                          android:text='magnetism and capacitors'
+                                          
+                                          android:textSize='15dp'
+                                          android:textStyle='bold'
+                                          android:gravity = 'center'
+                                          android:layout_margin = "2dp"
+                                          android:tag="iti_electrician/magnetism_and_capacitors.json"
+                                          android:onClick="clickButton"
+                                          />
+
+                                          <TextView
+                                         
+                                          android:layout_width='110dp'
+                                          android:layout_height='140dp'
+                                          style = "?cbutton"
+                                      
+                                          android:text='Welcome to Tutlne'
+                                          
+                                          android:textSize='15dp'
+                                          android:textStyle='bold'
+                                          android:gravity = 'center'
+                                          android:layout_margin = "2dp"
+                                          android:tag="iti_electrician/sources-of-light.json"
+                                          android:onClick="clickButton"
+                                          />
+    
+                                          
+                                    </LinearLayout>  
+      
+                       </HorizontalScrollView>  
+
+                        
+                       
+                </LinearLayout>
+        
+        </ScrollView>
+
+
+
+        <LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+        android:layout_width='match_parent'
+        android:layout_height='0dp'
+        android:orientation='horizontal'
+        android:layout_weight = "1"
+        android:gravity="center"
+        style = "?cbutton"
+        >
+                
+        <ImageView
+         android:layout_width="26dp"
+         android:layout_height="26dp"
+         android:layout_margin = "5dp"
+         android:src="@drawable/home_icon"
+         android:onClick = "colorthemeChange"
+         />
+
+         <ImageView
+         android:layout_width="26dp"
+         android:layout_height="26dp"
+          android:layout_margin = "5dp"
+         android:src="@drawable/home_icon"
+         />
+
+         <ImageView
+         android:layout_width="26dp"
+         android:layout_height="26dp"
+          android:layout_margin = "5dp"
+         android:src="@drawable/home_icon"
+         />
+
+         <ImageView
+         android:layout_width="26dp"
+         android:layout_height="26dp"
+          android:layout_margin = "5dp"
+         android:src="@drawable/home_icon"
+         />
+        
+       
+         
+        </LinearLayout>
+
+</LinearLayout>
