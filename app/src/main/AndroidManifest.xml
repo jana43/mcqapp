@@ -14,6 +14,7 @@
             android:parentActivityName=".QuestionPage">
 
         </activity>
+       
         <activity android:name=".ColorTheme"
             android:label="Theme"
             android:parentActivityName=".ColorTheme">

@@ -9,5 +9,6 @@
    <attr name="option" format="reference" />
    <attr name="qcardBackGround" format="reference" />
    <attr name="answarButton" format="reference" />
+   <attr name="iconc" format="reference" />
 
 </resources>

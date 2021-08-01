@@ -35,6 +35,7 @@ class ColorTheme : AppCompatActivity() {
             val theme = v.getTag().toString()
             val themeKey = "my.mcq.themekey"
             sharedPreferences.edit().putString(themeKey, theme).apply()
+            
             val intent = Intent(this@ColorTheme, MainActivity::class.java )
             Toast.makeText(this@ColorTheme, "theme change", Toast.LENGTH_SHORT).show()
             startActivity(intent)

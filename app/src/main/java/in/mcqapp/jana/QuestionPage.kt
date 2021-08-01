@@ -28,12 +28,14 @@ class QuestionPage : AppCompatActivity() {
         val sharedPrefFile = "scrolldata"  
         val chapterName = intent.getStringExtra("chapterName")
         val sharedPreferences: SharedPreferences = this.getSharedPreferences(sharedPrefFile,Context.MODE_PRIVATE)
+        
 
         val themeKey = "my.mcq.themekey"
 
         when (sharedPreferences.getString(themeKey, "default")) {
             "default" -> println("hash")
             "purpleTheme" ->  theme.applyStyle(R.style.purpleTheme, true)
+            "blackTheme" ->  theme.applyStyle(R.style.blackTheme, true)
            
         }
         
@@ -47,8 +49,8 @@ class QuestionPage : AppCompatActivity() {
         var OptionD: ArrayList<String> = ArrayList()
         var Answer: ArrayList<String> = ArrayList()
         var Solution: ArrayList<String> = ArrayList()
-        
         var Key: ArrayList<String> = ArrayList()
+      
 
           
 
@@ -113,6 +115,7 @@ class QuestionPage : AppCompatActivity() {
                OptionD.add(userDetail.getString("optionD"))
                Answer.add(userDetail.getString("Answar"))
                Solution.add(userDetail.getString("solution"))
+              
                
                
                }
@@ -124,7 +127,7 @@ class QuestionPage : AppCompatActivity() {
         println(Question)
 
         
-        val customAdapter = CustomAdapter(this@QuestionPage, Question, OptionA, OptionB, OptionC , OptionD, Answer, Solution  )
+        val customAdapter = CustomAdapter(this@QuestionPage, Question, OptionA, OptionB, OptionC , OptionD, Answer, Solution )
       
 
         recyclerView.scrollToPosition(cnameVal)

@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         when (sharedPreferences.getString(themeKey, "default")) {
             "default" -> println("hash")
             "purpleTheme" ->  theme.applyStyle(R.style.purpleTheme, true)
+            "blackTheme" ->  theme.applyStyle(R.style.blackTheme, true)
            
         }
 
@@ -54,12 +55,12 @@ class MainActivity : AppCompatActivity() {
 
 
     fun colorthemeChange(v: View){  
-            
             val intent = Intent(this@MainActivity, ColorTheme::class.java )
-
             startActivity(intent)
     }  
 
+
+    
 
     
 

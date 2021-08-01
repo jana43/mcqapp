@@ -1,5 +1,5 @@
 package `in`.mcqapp.jana
-
+import android.os.Bundle  
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import androidx.appcompat.app.AlertDialog
 import android.content.SharedPreferences  
+import android.database.sqlite.SQLiteDatabase
+import android.database.sqlite.SQLiteOpenHelper
 import java.util.*
 
 class CustomAdapter(
@@ -22,6 +24,7 @@ class CustomAdapter(
    private var OptionD: ArrayList<String>,
    private var Answer: ArrayList<String>,
    private var Solution: ArrayList<String>
+
  
  
 ) :
@@ -39,6 +42,7 @@ RecyclerView.Adapter<CustomAdapter.MyViewHolder>() {
       holder.OptionD.text = "D. "+OptionD[position]
       holder.Answer.text = Answer[position]
       holder.Solution.text = Solution[position]
+      
      
 
 
@@ -46,13 +50,14 @@ RecyclerView.Adapter<CustomAdapter.MyViewHolder>() {
      
       
       // implement setOnClickListener event on item view.
-      holder.itemView.setOnClickListener { // display a toast with person name on item click
+      holder.itemView.setOnLongClickListener { // display a toast with person name on item click
          
-         println("khali hai boss")
-         println("###########################################")
-         println(holder.position)
+         println("nothing working here")
+         Toast.makeText(context, "Clicked Laugh Vote", Toast.LENGTH_SHORT).show();
+          
+         return@setOnLongClickListener true
 
-        
+       
          
          
       }

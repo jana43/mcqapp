@@ -19,6 +19,7 @@
     <color name = "gradB">#CCCCCC</color>
     <color name = "header">#acacac</color>
     <color name = "headertop">#c4aead</color>
+    <color name = "iconcolor">#f4f0ec</color>
 
 
 
@@ -32,6 +33,20 @@
     <color name = "purple_gradB">#9400d3</color>
     <color name = "purple_header">#8a2be2</color>
     <color name = "purple_headertop">#c9a0dc</color>
+    <color name = "purple_iconcolor">#f4f0ec</color>
+
+
+    <color name = "black_Headline">#e5e4e2</color>
+    <color name=  "black_qback">#1c1c1c</color>
+    <color name = "black_bback">#1c1c1c</color>
+    <color name = "black_bcard">#363636</color>
+    <color name = "black_bbutton">#52593b</color>
+    <color name ="fblack_bbutton">#e5e4e2</color>
+    <color name = "black_gradA">#1c2841</color>
+    <color name = "black_gradB">#253529</color>
+    <color name = "black_header">#242424</color>
+    <color name = "black_headertop">#0a0a0a</color>
+    <color name = "black_iconcolor">#f4f0ec</color>
     
 
     
